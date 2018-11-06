@@ -7,7 +7,7 @@ class Owner
   def initialize(species)
     @species = species 
     @@owners << self 
-    @pets = {a:
+    @pets = {"a" => "", "b" => "", "c" => ""}
   end 
   
   def say_species
