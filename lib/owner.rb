@@ -50,11 +50,11 @@ class Owner
     pets[:fishes].each do |fish|
       fish.mood = "nervous"
     end 
-    pets[:fishes].each do |fish|
-      fish.mood = "nervous"
+    pets[:dogs].each do |dog|
+      dog.mood = "nervous"
     end 
-    pets[:fishes].each do |fish|
-      fish.mood = "nervous"
+    pets[:cats].each do |cat|
+      cat.mood = "nervous"
     end 
     
     pets[:fishes].clear
