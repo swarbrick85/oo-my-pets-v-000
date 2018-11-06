@@ -46,6 +46,18 @@ class Owner
     end 
   end 
   
+  def sell_pets 
+    pets[:fishes].each do |fish|
+      fish.mood = "nervous"
+    end 
+    pets[:fishes].each do |fish|
+      fish.mood = "nervous"
+    end 
+    pets[:fishes].each do |fish|
+      fish.mood = "nervous"
+    end 
+  end 
+  
   def self.all 
     return @@owners
   end 
