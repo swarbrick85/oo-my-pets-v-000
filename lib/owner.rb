@@ -22,6 +22,6 @@ class Owner
   
   
   def self.reset_all 
-    Owner.all = nil 
+     
   end 
 end
